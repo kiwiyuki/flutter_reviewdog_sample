@@ -1,0 +1,6 @@
+runner:
+  flutter:
+    cmd: flutter analyze 2> /dev/null
+    errorformat:
+      - " %#%t%.%# • %m • %f:%l:%c %r"
+      - "%-G%.%#"
